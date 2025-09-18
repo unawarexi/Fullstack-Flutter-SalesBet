@@ -1,26 +1,5 @@
 # SalesBet - No-Loss Betting Flutter App
 
-
-## 📱 Screenshots
-
-### Main Interface
-<img width="885" height="1797" alt="Main App Interface" src="https://github.com/user-attachments/assets/d7f15e68-e154-4c4a-a024-70ada4f281b7" />
-
-### Additional Views
-<table>
-  <tr>
-    <td width="33%">
-      <img width="100%" alt="Dashboard View" src="https://github.com/user-attachments/assets/84a0541a-11ab-4702-8a51-d1038e0571c8" />
-    </td>
-    <td width="33%">
-      <img width="100%" alt="Betting Interface" src="https://github.com/user-attachments/assets/26637c68-a611-4501-b9fa-b5676e1ec196" />
-    </td>
-    <td width="33%">
-      <img width="100%" alt="Profile & Settings" src="https://github.com/user-attachments/assets/d9d8ec6a-433b-42c2-8e3e-949f40231114" />
-    </td>
-  </tr>
-</table>
-
 ## Core Concept - "No-Loss Betting"
 
 ### The Revolutionary Mechanic
