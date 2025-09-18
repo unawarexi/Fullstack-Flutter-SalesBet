@@ -21,7 +21,7 @@
   </tr>
 </table>
 
-## 🎯 Core Concept - "No-Loss Betting"
+## Core Concept - "No-Loss Betting"
 
 ### The Revolutionary Mechanic
 Unlike traditional gambling apps, SalesBet introduces a risk-free betting system where users never lose credits — they only gain rewards when their predictions are correct.
@@ -32,12 +32,12 @@ Unlike traditional gambling apps, SalesBet introduces a risk-free betting system
 3. **Team Loses** → Locked credits are simply released back to the user
 
 ### Key Advantages
-- ✅ Removes gambling stigma and addiction risks
-- ✅ Encourages frequent participation without fear
-- ✅ Transforms credits into a gamified XP/loyalty system
-- ✅ Promotes responsible engagement with sports predictions
+- Removes gambling stigma and addiction risks
+- Encourages frequent participation without fear
+- Transforms credits into a gamified XP/loyalty system
+- Promotes responsible engagement with sports predictions
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ### Clean Architecture Implementation
 - **UI Layer** → Widgets, screens, animations, and user interactions
@@ -46,9 +46,9 @@ Unlike traditional gambling apps, SalesBet introduces a risk-free betting system
 - **Domain Models** → User, Team, Event, Bet, Wallet entities
 - **Security** → Backend enforcement via Firestore security rules and transaction logs
 
-## 🛠️ Technology Stack & Libraries
+## Technology Stack & Libraries
 
-### 🔐 Authentication & Security
+### Authentication & Security
 | Package | Purpose | Use Case |
 |---------|---------|----------|
 | `firebase_auth` | User authentication | Login, registration, session management |
@@ -58,7 +58,7 @@ Unlike traditional gambling apps, SalesBet introduces a risk-free betting system
 | `local_auth` | Biometric auth | Fingerprint/Face ID verification |
 | `flutter_secure_storage` | Encrypted storage | Sensitive data protection |
 
-### 🗄️ Data & Storage
+### Data & Storage
 | Package | Purpose | Use Case |
 |---------|---------|----------|
 | `firebase_core` | Firebase foundation | Core Firebase initialization |
@@ -67,13 +67,13 @@ Unlike traditional gambling apps, SalesBet introduces a risk-free betting system
 | `shared_preferences` | Local preferences | User settings, app preferences |
 | `get_storage` | High-performance storage | Cache management, offline data |
 
-### 📱 Media & File Handling
+### Media & File Handling
 | Package | Purpose | Use Case |
 |---------|---------|----------|
 | `image_picker` | Camera/gallery access | Profile pictures, content sharing |
 | `file_picker` | Document selection | File uploads, document verification |
 
-### 🌐 Networking & Communication
+### Networking & Communication
 | Package | Purpose | Use Case |
 |---------|---------|----------|
 | `http` | Basic HTTP requests | Simple API calls |
@@ -82,7 +82,7 @@ Unlike traditional gambling apps, SalesBet introduces a risk-free betting system
 | `socket_io_client` | Real-time communication | Live betting updates, chat features |
 | `connectivity_plus` | Network monitoring | Offline/online state detection |
 
-### 📊 UI Components & Visualization
+### UI Components & Visualization
 | Package | Purpose | Use Case |
 |---------|---------|----------|
 | `fl_chart` | Data visualization | Betting statistics, performance charts |
@@ -90,7 +90,7 @@ Unlike traditional gambling apps, SalesBet introduces a risk-free betting system
 | `percent_indicator` | Progress visualization | Betting progress, completion status |
 | `smooth_page_indicator` | Page navigation | Onboarding flow indicators |
 
-### 🎨 User Experience
+### User Experience
 | Package | Purpose | Use Case |
 |---------|---------|----------|
 | `iconsax` | Modern iconography | Consistent UI icons throughout app |
@@ -100,26 +100,22 @@ Unlike traditional gambling apps, SalesBet introduces a risk-free betting system
 | `flutter_spinkit` | Loading indicators | Various loading states |
 | `status_alert` | User feedback | Success/error message displays |
 
-### 📍 Location & Maps
-| Package | Purpose | Use Case |
-|---------|---------|----------|
-| `google_maps_flutter` | Interactive maps | Venue locations, event mapping |
 
-### 🔔 Notifications & Alerts
+### Notifications & Alerts
 | Package | Purpose | Use Case |
 |---------|---------|----------|
 | `firebase_messaging` | Push notifications | Live score updates, betting reminders |
 | `flutter_local_notifications` | Local alerts | Scheduled reminders, offline notifications |
 | `fluttertoast` | Quick feedback | Simple success/error messages |
 
-### 🧭 Navigation & State
+### Navigation & State
 | Package | Purpose | Use Case |
 |---------|---------|----------|
 | `go_router` | Declarative routing | Type-safe navigation, deep linking |
 | `flutter_riverpod` | State management | Reactive state, dependency injection |
 | `get` | Utility functions | Quick utilities and helpers |
 
-### 🔧 Utilities & Tools
+### Utilities & Tools
 | Package | Purpose | Use Case |
 |---------|---------|----------|
 | `intl` | Internationalization | Date formatting, localization |
