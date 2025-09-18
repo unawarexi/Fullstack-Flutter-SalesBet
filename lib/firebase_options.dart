@@ -3,6 +3,8 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:fullstack_flutter_salesbet/core/environments/environments.dart';
+
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -40,47 +42,47 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCRSdbic5k_LqNwN5EDy0gJJOPkOKSIcV0',
-    appId: '1:132247431010:web:d3c346d67204f8beb2ee3b',
-    messagingSenderId: '132247431010',
-    projectId: 'fullstack-flutter-salesbet',
-    authDomain: 'fullstack-flutter-salesbet.firebaseapp.com',
-    storageBucket: 'fullstack-flutter-salesbet.firebasestorage.app',
+  static FirebaseOptions get web => FirebaseOptions(
+    apiKey: Environment.firebaseWebApiKey,
+    appId: Environment.firebaseWebAppId,
+    messagingSenderId: Environment.firebaseWebMessagingSenderId,
+    projectId: Environment.firebaseWebProjectId,
+    authDomain: Environment.firebaseWebAuthDomain,
+    storageBucket: Environment.firebaseWebStorageBucket,
   );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCmjc5sL8A1vDl8Ex5SIrn_T-YYJi5NsME',
-    appId: '1:132247431010:android:0089b23c59bcd731b2ee3b',
-    messagingSenderId: '132247431010',
-    projectId: 'fullstack-flutter-salesbet',
-    storageBucket: 'fullstack-flutter-salesbet.firebasestorage.app',
+  static FirebaseOptions get android => FirebaseOptions(
+    apiKey: Environment.firebaseAndroidApiKey,
+    appId: Environment.firebaseAndroidAppId,
+    messagingSenderId: Environment.firebaseAndroidMessagingSenderId,
+    projectId: Environment.firebaseAndroidProjectId,
+    storageBucket: Environment.firebaseAndroidStorageBucket,
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyChJvhV5or2aeUqYUJTRI0pPrHBEX59dbQ',
-    appId: '1:132247431010:ios:7bd3a696d4ca9c98b2ee3b',
-    messagingSenderId: '132247431010',
-    projectId: 'fullstack-flutter-salesbet',
-    storageBucket: 'fullstack-flutter-salesbet.firebasestorage.app',
-    iosBundleId: 'com.example.fullstackFlutterSalesbet',
+  static FirebaseOptions get ios => FirebaseOptions(
+    apiKey: Environment.firebaseIosApiKey,
+    appId: Environment.firebaseIosAppId,
+    messagingSenderId: Environment.firebaseIosMessagingSenderId,
+    projectId: Environment.firebaseIosProjectId,
+    storageBucket: Environment.firebaseIosStorageBucket,
+    iosBundleId: Environment.firebaseIosBundleId,
   );
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyChJvhV5or2aeUqYUJTRI0pPrHBEX59dbQ',
-    appId: '1:132247431010:ios:7bd3a696d4ca9c98b2ee3b',
-    messagingSenderId: '132247431010',
-    projectId: 'fullstack-flutter-salesbet',
-    storageBucket: 'fullstack-flutter-salesbet.firebasestorage.app',
-    iosBundleId: 'com.example.fullstackFlutterSalesbet',
+  static FirebaseOptions get macos => FirebaseOptions(
+    apiKey: Environment.firebaseMacosApiKey,
+    appId: Environment.firebaseMacosAppId,
+    messagingSenderId: Environment.firebaseMacosMessagingSenderId,
+    projectId: Environment.firebaseMacosProjectId,
+    storageBucket: Environment.firebaseMacosStorageBucket,
+    iosBundleId: Environment.firebaseMacosBundleId,
   );
 
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCRSdbic5k_LqNwN5EDy0gJJOPkOKSIcV0',
-    appId: '1:132247431010:web:dd74c9c1f491d46eb2ee3b',
-    messagingSenderId: '132247431010',
-    projectId: 'fullstack-flutter-salesbet',
-    authDomain: 'fullstack-flutter-salesbet.firebaseapp.com',
-    storageBucket: 'fullstack-flutter-salesbet.firebasestorage.app',
+  static FirebaseOptions get windows => FirebaseOptions(
+    apiKey: Environment.firebaseWindowsApiKey,
+    appId: Environment.firebaseWindowsAppId,
+    messagingSenderId: Environment.firebaseWindowsMessagingSenderId,
+    projectId: Environment.firebaseWindowsProjectId,
+    authDomain: Environment.firebaseWindowsAuthDomain,
+    storageBucket: Environment.firebaseWindowsStorageBucket,
   );
 }
