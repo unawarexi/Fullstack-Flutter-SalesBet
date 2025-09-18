@@ -104,6 +104,12 @@ Unlike traditional gambling apps, SalesBet introduces a risk-free betting system
 | `permission_handler` | Device permissions | Camera, location, notification access |
 | `wakelock_plus` | Screen management | Keep screen on during live events |
 
+
+### Real-time data updates 
+| Package | Purpose | Use Case |
+|---------|---------|----------|
+| `wwebsockets` | Realtime data updates | betting screen, price pool, constestants info. |
+
 ## 🎮 Key Features
 
 ### Core Functionality
