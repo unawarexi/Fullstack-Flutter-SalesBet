@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "132247431010",
+    "project_id": "fullstack-flutter-salesbet",
+    "storage_bucket": "fullstack-flutter-salesbet.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132247431010:android:0089b23c59bcd731b2ee3b",
+        "android_client_info": {
+          "package_name": "com.example.fullstack_flutter_salesbet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmjc5sL8A1vDl8Ex5SIrn_T-YYJi5NsME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
